@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+.container{
+    background: linear-gradient(to top, blue, white);
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.todoApp{
+    background-color: white;
+    width: 80%;
+    border-radius: 5px;
+}
+.icon-img{
+    width: 120px;
+}
+.input-field{ 
+    width: 50%;
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 20px; 
+}
+#add-btn{
+    border-radius: 20px;
+    background-color: blue;
+}
+#list-container:hover{
+    cursor: pointer;
+}
+.task-items{
+    width: 50%;
+}
+ul li{
+    position: relative;
+    font-size: 20px;
+    list-style: circle;
+    margin: 8px;
+}
+ul li.fulfilled{
+    text-decoration: line-through;
+}
+
+ul li span{
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    right:0;
+    width: 32px; 
+    height: 32px;
+    margin: auto;
+   font-weight: bold;
+    text-align: center;
+    color: white;
+    
+}
+ul li span:hover{
+    cursor: pointer;
+    background-color: rgb(67, 67, 206);
+}
