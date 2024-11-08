@@ -5,7 +5,7 @@ const listContainer = document.querySelector("#list-container")
 
 addTaskBtn.addEventListener("click", () => {
     if (taskInput.value === ""){
-        alert("Enter something")
+        alert("You must enter something!")
     }
     else{ 
         let todoDiv = document.createElement("div")
