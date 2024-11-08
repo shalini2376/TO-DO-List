@@ -26,7 +26,7 @@ addTaskBtn.addEventListener("click", () => {
 
 listContainer.addEventListener("click", function(e){
     if (e.target.tagName == "BUTTON"){
-        e.target.parentElement.remove();
+        e.target.parentElement.remove(); 
         saveData();
     }
 })
@@ -38,4 +38,4 @@ function saveData (){
 function showTask(){
     listContainer.innerHTML = localStorage.getItem("data");
 }
-showTask();
+showTask(); 

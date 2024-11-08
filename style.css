@@ -7,17 +7,18 @@ body{
 .input-box{
     border: none;
     border-radius: 6px;
-
+    outline: none;
+    border: 2px solid #A44A3F;
 }
 h1{
-    color: white;
+    color: #A44A3F;
 }
 #add-task{
-    background-color: orange;
+    background-color: #A44A3F;
 }
 .bg-container{
     /* background: linear-gradient( white,blue); */
-    background-color: #14248A;
+    background-color: #F2D0A9;
     height: 100vh;
 }
 ul li {
@@ -25,7 +26,7 @@ ul li {
    list-style: none;
 }
 .todo{
-    background-color: orange;
+    background-color: #A44A3F;
     color: white;
     margin-bottom: 13px;
     padding: 10px;
@@ -37,11 +38,9 @@ ul li {
 .dltBtn{
     background-color: white;
     outline: none;
-    color: orange;
-    border: 2px solid orange;
+    color: #A44A3F;
+    border: 2px solid #A44A3F;
     border-radius: 10px;
     padding: 5px;
 }
-.dltBtn:hover{
-    color: orange;
-}
+
