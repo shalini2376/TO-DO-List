@@ -8,20 +8,31 @@
     <title>TO DO LIST </title>
 </head>
 <body>
-    <div class="container d-flex flex-column justify-content-center ">
-        <div class = "todoApp text-left pl-3 pt-2 pb-3">
-            <h2 class="font-weight-bold text-center">TO DO LIST<img src="icon-img.png" alt="icon-img" class="icon-img"> </h2>
-            <div class="task-holder d-flex flex-row justify-content-center mb-4">
-                <input class="input-field  p-1 bg-white" id = "input-box" type="text" placeholder="Add Your Task...">
-                <button class="btn btn-primary " id = "add-btn" onclick = "addTask()">Add Task</button>
+    <div class="bg-container text-center">
+        <h1 class="pb-2 pt-2">TO DO List</h1>
+        <div class="container ">
+            <div class="row">
+                <div class="col-12">
+                     <div class="input-section mb-4 ">
+                        <input type="text" class="input-box p-2 " placeholder="Enter Task...">
+                        <button class="btn text-white" id = "add-task">Add Task</button>
+                     </div>
+                </div>
             </div>
-            <div class="task-items pl-4">
-                    <ul id="list-container" >
-                        <!-- <li class="fulfilled "> </li> -->
-                    </ul>
+            <div class="row" id = "task-container-row">
+                <div class="col-12 ">
+                    <div class="w-50 m-auto">
+                        <ul id = "list-container">
+                            
+                        </ul>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>

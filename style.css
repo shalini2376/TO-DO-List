@@ -1,68 +1,47 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: cursive;
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+body{
+    font-family: "Roboto";
 }
-.container{
-    background: linear-gradient(to top, blue, white);
-    width: 100%;
+.input-box{
+    border: none;
+    border-radius: 6px;
+
+}
+h1{
+    color: white;
+}
+#add-task{
+    background-color: orange;
+}
+.bg-container{
+    /* background: linear-gradient( white,blue); */
+    background-color: #14248A;
     height: 100vh;
-    align-items: center;
 }
-.todoApp{
+ul li {
+   border-radius: 10px; 
+   list-style: none;
+}
+.todo{
+    background-color: orange;
+    color: white;
+    margin-bottom: 13px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dltBtn{
     background-color: white;
-    width: 80%;
-    border-radius: 5px;
-}
-.icon-img{
-    width: 8%;
-}
-.input-field{ 
-    width: 50%;
     outline: none;
-    border: 2px solid blue;
-    border-radius: 20px; 
-}
-#add-btn{
-    border-radius: 20px;
-    background-color: blue;
-    margin-left: 3px;
-}
-#list-container:hover{
-    cursor: pointer;
-}
-.task-items{
-    width: 70%;
-    margin: auto;
-}
-ul li{
-    position: relative;
-    font-size: 20px;
-    list-style: circle;
-    margin: 10px;
-    background: radial-gradient(white,rgb(165, 165, 255));
-    border-radius: 8px;
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 10px;
     padding: 5px;
 }
-ul li.fulfilled{
-    text-decoration: line-through;
-}
-
-ul li span{
-    background-color: blue;
-    border-radius: 50%;
-    position: absolute;
-    right:0;
-    width: 6%; 
-    margin: auto;
-   font-weight: bold;
-    text-align: center;
-    color: white;
-    
-}
-ul li span:hover{
-    cursor: pointer;
-    background-color: white;
-    color: blue;
+.dltBtn:hover{
+    color: orange;
 }
