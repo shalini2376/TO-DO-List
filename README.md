@@ -41,7 +41,7 @@ No additional setup needed — it's a fully static project.
 │── README.md
 
 ```
-## 📸 Screenshots 
-./screenshot.png
+## 📸 Screenshot
+screenshot.png
 
 
