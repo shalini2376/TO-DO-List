@@ -38,10 +38,11 @@ No additional setup needed — it's a fully static project.
 │── index.html
 │── style.css
 │── script.js
+│── screenshot.png
 │── README.md
 
 ```
 ## 📸 Screenshot
-screenshot.png
+![App Screenshot](./screenshot.png)
 
 
